@@ -1,0 +1,39 @@
+***THIS IS A LOG OF PROCEDURES FOLLOWED TO ADD/DEVELOP ON THE THIS MACHINE (HERMES)***
+
+///ADDING ALIASES\\\
+
+>Edit ~/.bashrc and make sure this condition:
+----------------
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+----------------
+is not commented out
+>Create ~/.bash_aliases
+>In ~/.bash_aliases add any aliases in the format:
+    alias <alias>='command(s) here'
+>>NOTE: make sure that the <alias>=commands part has no spaces!
+
+
+///INSTALLING CINNAMON\\\
+
+>>Install gnome-shell first because needs for certain things like icons in current version of cinnamon (as of 11/19/13)
+sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
+sudo apt-get update
+sudo apt-get install cinnamon
+
+
+///REMOVING COMPLETELY(Unverified)\\\
+
+sudo apt-get --purge remove <package>
+sudo apt-get --purge autoremove
+
+///UPDATING NVIDIA DRIVERS\\\
+
+sudo apt-get purge nvidia*
+sudo apt-get install nvidia-current
+
+//SHOW GRUB MENU ON BOOT ALWAYS\\
+edit file: /etc/default/grub
+comment out (#): GRUB_HIDDEN_TIMEOUT=0
+

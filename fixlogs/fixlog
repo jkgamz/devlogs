@@ -1,0 +1,50 @@
+*THIS FILE CONTAINS FIXES FROM EXPERIENCE ON THIS MACHINE AND OTHERS*
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//PROBLEM//
+The screen is flickering and machine unusable on resume from suspend (Ubuntu 12.04 LTS)
+//SOLUTION//
+Update graphics driver/apply graphics driver 
+>I used the "Other Drivers" software which is a native application on Ubuntu 12.04 LTS
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//PROBLEM//
+Touch click on touchpad(laptop) not working (Ubuntu 12.04 LTS)
+>Should also include problem with all touch on touchpad not working
+//SOLUTION//
+In terminal:
+----------
+sudo modprobe -r psmouse
+----------
+>unloads the driver
+
+----------
+sudo modprobe psmouse proto=imps
+----------
+>reloads driver
+
+>>To keep the touchpad working after the current session (above fix is temporary) dothe following in addition:
+Make a file in the path: /etc/modprobe.d/psmouse.conf
+With this content: 
+----------
+options psmouse proto=imps
+----------
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//PROBLEM//
+In Cinnamon, some icons in the menu are missing like logout, quit, lockscreen, and categories.
+//SOLUTION//
+Install gnome shell (sudo apt-get install gnome-shell)
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//PROBLEM//
+Mouse not working; can only click in current window or can't click in any window. (Ubuntu 12.04 LTS on HP desktop machine)
+//SOLUTION//
+Enter LUI with ctl+alt+f1
+Back to GUI with ctl+alt+f7
+>This reinitializes the mouse
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+

@@ -1,0 +1,21 @@
+Packages
+========
+
+Emacs => emacs23
+
+Gnome Classic DE => gnome-session-fallback
+
+Configuration Editor => gconf-editor
+
+Repositories
+============
+
+gwendal-lebihan-dev/cinnamon-stable
+>cinnamon
+
+danielrichter2007/grub-customizer
+>grub-customizer
+
+noobslab/apps
+
+noobslab/themes
