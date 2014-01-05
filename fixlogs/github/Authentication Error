@@ -1,0 +1,10 @@
+//PROBLEM\\
+In Ubuntu 12.04LTS, github does not authenticate for push despite correct credentials
+//SOLUTION\\
+Need to update git to latest version.
+---------------
+$sudo add-apt-repository ppa:git-core/ppa
+$sudo apt-get update
+$sudo apt-get upgrade
+---------------
+Now git will update along with the rest of the repositories
