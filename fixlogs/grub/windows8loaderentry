@@ -1,0 +1,27 @@
+//Windows 8 Loader Entry (Items in <> need to be replaced with situational information)\\
+
+Use grub-customizer to create a new boot entry. Under Options type is Other. Then, in code part, insert this script:
+
+-----
+	insmod search_fs_uuid
+	insmod chain
+	insmod part_gpt
+	insmod fat
+	set root='<boot device (ex: (hd0, gpt1))>'
+	search --fs-uuid <boot device uuid>
+	chainloader /EFI/Microsoft/Boot/bootmgfw.efi
+-----
+with <> replaced with pertinent information.
+
+
+>Boot device uuid can be found with:
+-----
+blkid /dev/<partition or device>
+-----
+
+>root can be found with:
+-----
+grub-mkdevicemap
+-----
+this generates device.map in /boot/grub
+
