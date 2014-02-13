@@ -41,3 +41,10 @@ comment out (#): GRUB_HIDDEN_TIMEOUT=0
 >download chrome from google
 >$ sudo dpkg -i google-chrome-stable_current_amd64.deb
 >$sudo apt-get -f install
+
+//INSTALL VMWARE PLAYER\\
+>download the .bundle from VMware
+>$sudo apt-get install build-essential linux-headers-`uname -r`
+>The above installs the necessary header files
+>$chmod +x <put the .bundle here>
+>$gksudo bash <put the .bundle here>
