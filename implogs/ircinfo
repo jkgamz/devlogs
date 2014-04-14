@@ -1,10 +1,10 @@
 ///IRSSI HELP FILE\\\
 
 To install Irssi:
-sudo apt-get irssi
-sudo apt-get irssi-scripts
+sudo apt-get install irssi
+sudo apt-get install irssi-scripts
 (if it doesnt run properly then install:
-sudo apt-get openssh-server)
+sudo apt-get install openssh-server)
 
 To run Irssi:
 irssi
