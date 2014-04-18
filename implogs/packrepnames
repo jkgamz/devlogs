@@ -7,6 +7,7 @@ Gnome Classic DE => gnome-session-fallback
 
 Configuration Editor => gconf-editor
 
+Ubuntu Studio DE => ubuntustudio-desktop ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-video
 
 Repositories
 ============
