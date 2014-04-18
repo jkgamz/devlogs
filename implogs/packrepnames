@@ -9,15 +9,18 @@ Configuration Editor => gconf-editor
 
 Ubuntu Studio DE => ubuntustudio-desktop ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-video
 
+
+
 Repositories
 ============
 
-gwendal-lebihan-dev/cinnamon-stable
+Cinnamon DE => gwendal-lebihan-dev/cinnamon-stable
 >cinnamon
 
-danielrichter2007/grub-customizer
+Grub Customizer => danielrichter2007/grub-customizer
 >grub-customizer
 
-noobslab/apps
-
-noobslab/themes
+Gnome(Latest) => gnome3-team/gnome3-next
+	      	 gnome3-team/gnome3
+>gnome-shell
+>ubuntu-gnome-desktop
