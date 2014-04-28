@@ -4,6 +4,7 @@ Packages
 Emacs => emacs23
 
 Gnome Classic DE => gnome-session-fallback
+>As of 4/28/14 broken at 14.04
 
 Configuration Editor => gconf-editor
 
