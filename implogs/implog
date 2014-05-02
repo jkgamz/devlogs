@@ -52,3 +52,16 @@ comment out (#): GRUB_HIDDEN_TIMEOUT=0
 pref.vmplayer.fullscreen.nobar = "1"
 --------------------
 
+//ADD INSECURE PASSWORD TO TERMINAL ON START\\
+>Append the following to the .bashrc file
+--------------------
+read -s -p "PASSWORD PROMPT HERE" mypassword
+key="ACCEPTABLE PASSWORD"
+if [ $mypassword == $key ]; then
+    reset
+    echo "LOGIN SUCCESS MESSAGE HERE"
+else
+    exit
+fi
+--------------------
+

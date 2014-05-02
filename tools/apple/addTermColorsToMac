@@ -1,0 +1,6 @@
+To add terminal colors to a Mac computer, append the following to /etc/bashrc
+-----------------------------------------------------------------------------
+
+export CLICOLOR=1
+
+export LSCOLORS=GxFxCxDxBxegedabagaced
