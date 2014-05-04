@@ -58,3 +58,15 @@ Back to GUI with ctl+alt+f7
 >This reinitializes the mouse
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//PROBLEM//
+Keep getting "System Program Error Detected" messages
+//SOLUTION//
+>Sometimes old program errors reside and regenerate in /var/crash/
+>These are causing the messages, so we get rid of them:
+----------
+sudo rm /var/crash/*
+----------
+>After a reboot, we should find there are no more messages
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
