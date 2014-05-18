@@ -1,0 +1,31 @@
+INSTRUCTIONS TO CONFIGURE AND START A WPA/WPA2 CONNECTION
+
+do the following as root
+
+*Start here if you have not set up a configuration file
+ >if WPA Supplicant is not already installed, install package wpasupplicant
+
+#wpa_passphrase <SSID> <passphrase> > wpa.conf
+ --OR-- (to avoid passphrase in console logs)
+#wpa_passphrase <SSID> > wpa.conf <<ENTER>>
+<passphrase>
+
+*Start here is conf file has already been made
+
+//to find available connections and info
+#iwlist scan
+
+//to initialize connection
+#wpa_supplicant -D[driver] -i[device] -c[/path/to/config/file] -B
+
+//to get an ip address
+#dhclient -r
+#dhclient [wireless device]
+
+//LIST OF DRIVERS
+>wext (a catch-all driver)
+>hostap
+>madwifi
+>atmel
+>mdiswrapper
+>ipw (for old systems only)
