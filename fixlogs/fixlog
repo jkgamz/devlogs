@@ -70,3 +70,20 @@ sudo rm /var/crash/*
 ----------
 >After a reboot, we should find there are no more messages
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//PROBLEM//
+Blank screen on startx
+//SOLUTION (WORKAROUND)//
+first:
+----------
+xinit
+----------
+
+then:
+----------
+<desktopenvironment>-session
+----------
+(for example, xfce4 would be xfce4-session)
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -1,4 +1,4 @@
-***THIS IS A LOG OF PROCEDURES FOLLOWED TO ADD/DEVELOP ON THE THIS MACHINE (HERMES)***
+***THIS IS A LOG OF PROCEDURES FOLLOWED TO ADD/DEVELOP ON THE THIS MACHINE***
 
 ///ADDING ALIASES\\\
 >Edit ~/.bashrc and make sure this condition:
@@ -63,5 +63,12 @@ if [ $mypassword == $key ]; then
 else
     exit
 fi
+--------------------
+
+//TERMINAL"SCREEN" ALTERNATE SCREEN FOR PROGRAMS\\
+>Create or edit the file .screenrc
+>Add the following:
+--------------------
+altscreen on
 --------------------
 
