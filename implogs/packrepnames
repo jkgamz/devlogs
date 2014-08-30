@@ -10,6 +10,8 @@ Configuration Editor => gconf-editor
 
 Ubuntu Studio DE => ubuntustudio-desktop ubuntustudio-audio ubuntustudio-audio-plugins ubuntustudio-graphics ubuntustudio-video
 
+Eclipse IDE => eclipse
+CDT for Eclipse => eclipse-cdt
 
 
 Repositories
