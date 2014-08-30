@@ -87,3 +87,13 @@ then:
 ----------
 (for example, xfce4 would be xfce4-session)
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//PROBLEM//
+Keep getting "Ubuntu has encountered an internal error" message
+
+//SOLUTION//
+as su edit /etc/default/apport
+>this disables apport (the crash notification)
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
