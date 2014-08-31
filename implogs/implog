@@ -72,3 +72,10 @@ fi
 altscreen on
 --------------------
 
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//CHANGE KDE LOADING SPLASHSCREEN BACKGROUND\\
+>Replace background.png in /usr/share/kde4/apps/ksplash/Themes/Default/1920x1080
+ with another .png file (rename the desired file to background.png)
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
