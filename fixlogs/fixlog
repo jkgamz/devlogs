@@ -97,3 +97,15 @@ as su edit /etc/default/apport
 >this disables apport (the crash notification)
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//PROBLEM//
+KDE lockscreen wallpaper won't change/adapt to desktop wallpaper
+
+//SOLUTION//
+Change target file:
+>make sure the wallpaper you want is .png
+>copy/move it to /usr/share/wallpapers/Elarun/contents/images
+>rename file 2560x1600.png to something else
+>change desired wallpaper name to 2560x1600.png
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
