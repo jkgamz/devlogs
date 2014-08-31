@@ -13,6 +13,8 @@ Ubuntu Studio DE => ubuntustudio-desktop ubuntustudio-audio ubuntustudio-audio-p
 Eclipse IDE => eclipse
 CDT for Eclipse => eclipse-cdt
 
+Flash Plugin => flashplugin-installer
+
 Repositories
 ============
 
