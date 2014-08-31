@@ -13,7 +13,6 @@ Ubuntu Studio DE => ubuntustudio-desktop ubuntustudio-audio ubuntustudio-audio-p
 Eclipse IDE => eclipse
 CDT for Eclipse => eclipse-cdt
 
-
 Repositories
 ============
 
@@ -27,3 +26,9 @@ Gnome(Latest) => gnome3-team/gnome3-next
 	      	 gnome3-team/gnome3
 >gnome-shell
 >ubuntu-gnome-desktop
+
+Complex Binary Installs
+=======================
+
+Calibre eBook Manager => sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"
+
