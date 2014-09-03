@@ -109,3 +109,14 @@ Change target file:
 >change desired wallpaper name to 2560x1600.png
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//PROBLEM//
+xSPIM isn't launching
+
+//SOLUTION//
+>install both xfonts-75dpi and xfonts-100dpi
+>if they are already installed and SPIM won't launch, launch with:
+-----
+xspim -font 6x10
+-----
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
