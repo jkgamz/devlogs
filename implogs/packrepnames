@@ -15,19 +15,27 @@ CDT for Eclipse => eclipse-cdt
 
 Flash Plugin => flashplugin-installer
 
+Komodo IDE => komodo-edit
+>needs the repo
+
+
 Repositories
 ============
 
-Cinnamon DE => gwendal-lebihan-dev/cinnamon-stable
+*Cinnamon DE => gwendal-lebihan-dev/cinnamon-stable
 >cinnamon
 
-Grub Customizer => danielrichter2007/grub-customizer
+*Grub Customizer => danielrichter2007/grub-customizer
 >grub-customizer
 
-Gnome(Latest) => gnome3-team/gnome3-next
+*Gnome(Latest) => gnome3-team/gnome3-next
 	      	 gnome3-team/gnome3
 >gnome-shell
 >ubuntu-gnome-desktop
+
+*Komodo IDE => mystic-mirage/komodo-edit
+>komodo-edit
+
 
 Complex Binary Installs
 =======================
