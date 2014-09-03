@@ -18,6 +18,7 @@ Flash Plugin => flashplugin-installer
 Komodo IDE => komodo-edit
 >needs the repo
 
+OpenJDK 7 => openjdk-7-jdk
 
 Repositories
 ============
