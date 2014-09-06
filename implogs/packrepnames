@@ -20,6 +20,9 @@ Komodo IDE => komodo-edit
 
 OpenJDK 7 => openjdk-7-jdk
 
+GKsudo => gksu
+>for running graphical applications as su
+
 Repositories
 ============
 
