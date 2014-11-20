@@ -120,3 +120,19 @@ xSPIM isn't launching
 xspim -font 6x10
 -----
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//PROBLEM//
+scp breaks when there are commands in .bashrc
+on server like clear, pause, or echo
+
+//SOLUTION//
+>place commands in .bashrc in if statement:
+-----
+if [ "$SSH_TTY" ]; then
+   #put output/commands here
+   #
+   #
+fi
+-----
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
