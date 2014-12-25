@@ -1,7 +1,8 @@
 //mysql database is corrupted
 -> start mysql command line
-$mysql --user:root --password <database>
+$mysql --user=root --password <database>
 -can also drop the <database> part and just use
+-find pass in /backup/goliathconfig..
 >USE <database>
  once in mysql command line
 -> REPAIR TABLE <table>;
